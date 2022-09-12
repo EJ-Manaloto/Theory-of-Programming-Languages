@@ -23,13 +23,13 @@ public class Palindrome
 		boolean palindrome = true;
 		for (int i = 0; i < noSpacesOrSpecialChar.length(); i++)
 		{
-			if(noSpacesOrSpecialChar.charAt(i) != noSpacesOrSpecialChar.charAt(i)) 
+			if(reverse.charAt(i) != noSpacesOrSpecialChar.charAt(i)) 
 			{
 				palindrome = false;
 			}
 		}
 		
-		System.out.println(line.repeat(noSpacesOrSpecialChar.length() + 4));
+		System.out.println(line.repeat(noSpacesOrSpecialChar.length() + 2));
 		
 		if(palindrome) 
 		{
