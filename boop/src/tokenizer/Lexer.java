@@ -1,4 +1,4 @@
-package boop;
+package tokenizer;
 
 import java.util.Scanner;
 
