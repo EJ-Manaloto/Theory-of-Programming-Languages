@@ -1,8 +1,6 @@
-package tokenizer;
-
 import java.util.Scanner;
 
-public class Lexer 
+public class Tokenizer 
 {
 	public static void main(String[] args) 
 	{
@@ -23,10 +21,7 @@ public class Lexer
 			else if (word[i].matches("[a-zA-Z]+") || word[i].matches("[0-9]"))
 			{
 				System.out.println(word[i] + " - <identifier>");
-				if (word[i].contains(";"))
-				{
-					System.out.println("<delimiter>");
-				}
+
 			}
 			else if (word[i].equals("="))
 			{
